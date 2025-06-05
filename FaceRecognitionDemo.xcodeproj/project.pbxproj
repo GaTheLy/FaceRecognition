@@ -35,16 +35,6 @@
 			path = FaceRecognitionDemo;
 			sourceTree = "<group>";
 		};
-		9067DBC62DED58410064F41A /* FaceRecognitionDemoTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = FaceRecognitionDemoTests;
-			sourceTree = "<group>";
-		};
-		9067DBD02DED58410064F41A /* FaceRecognitionDemoUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = FaceRecognitionDemoUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,8 +66,6 @@
 			isa = PBXGroup;
 			children = (
 				9067DBB52DED58400064F41A /* FaceRecognitionDemo */,
-				9067DBC62DED58410064F41A /* FaceRecognitionDemoTests */,
-				9067DBD02DED58410064F41A /* FaceRecognitionDemoUITests */,
 				9067DBB42DED58400064F41A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -130,9 +118,6 @@
 			dependencies = (
 				9067DBC52DED58410064F41A /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				9067DBC62DED58410064F41A /* FaceRecognitionDemoTests */,
-			);
 			name = FaceRecognitionDemoTests;
 			packageProductDependencies = (
 			);
@@ -152,9 +137,6 @@
 			);
 			dependencies = (
 				9067DBCF2DED58410064F41A /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				9067DBD02DED58410064F41A /* FaceRecognitionDemoUITests */,
 			);
 			name = FaceRecognitionDemoUITests;
 			packageProductDependencies = (
